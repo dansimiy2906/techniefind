@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/black"
+    tools:context=".AddJobActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Jobs"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:layout_marginBottom="70dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Device Type"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/custom_email_input"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/grey"
+        android:id="@+id/device"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/custom_email_input"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Price Range"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/custom_email_input"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/grey"
+        android:id="@+id/PriceRange"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/custom_email_input"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Issue"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:textColor="@android:color/white"
+        android:drawableStart="@drawable/custom_email_input"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/grey"
+        android:id="@+id/issue"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/custom_email_input"
+        android:paddingLeft="10dp" />
+
+
+    <Button
+        android:id="@+id/button_jobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_back"
+        android:textColor="@android:color/white"
+        android:text="Send Job"
+        android:layout_margin="10dp"
+        android:textSize="25sp"/>
+
+
+
+
+
+</LinearLayout>

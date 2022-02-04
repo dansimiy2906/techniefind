@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CustomerProfileActivity"
+    >
+
+    <TextView
+        android:id="@+id/setup_userInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Customer Profile"
+        android:textAlignment="center"
+        android:textColor="@color/gold"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/customerImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/profile"
+        tools:ignore="MissingClass,MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <EditText
+        android:id="@+id/customerName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Input FullName"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/grey"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_baseline_business_center_24"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/customerIDNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Input Your National ID Number"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/grey"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_baseline_business_24"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/customerLocation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Input Your Location"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/grey"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_baseline_add_location_24"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/customerContact"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Input Your Phone Number"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:drawablePadding="10dp"
+        android:inputType="text|number"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/grey"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_baseline_contact_phone_24"
+        android:paddingLeft="10dp" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btnCustomerRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_back"
+        android:text="Save Profile"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        />
+
+
+
+</LinearLayout>

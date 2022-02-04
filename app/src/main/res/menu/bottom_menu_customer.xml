@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="always"
+        android:id="@+id/customer_home_bottom"/>
+
+    <item android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"
+        android:id="@+id/customer_search_bottom"/>
+
+    <item android:title="Profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:id="@+id/customer_profile_bottom"/>
+
+</menu>

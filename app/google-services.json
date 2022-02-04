@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816993166315",
+    "project_id": "techniefind-3c2a3",
+    "storage_bucket": "techniefind-3c2a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816993166315:android:1cf76d1c5b67867fa22fae",
+        "android_client_info": {
+          "package_name": "com.example.techniefind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816993166315-dep8gh2vfat175raf6ctqorg70ea6s1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVOgMjXYWohmVIY1E9jXqKjBE_PR9y-2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816993166315-dep8gh2vfat175raf6ctqorg70ea6s1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
